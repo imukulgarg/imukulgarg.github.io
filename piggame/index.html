@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title> Pig Game </title>
+		<meta charset="UTF-8">
+		<script src="https://kit.fontawesome.com/779661b879.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="flex-pr">
+				<div class="player-1 active">
+					<div class="player-name" id="name1">player 1</div>
+					<div class="player-score" id="final-score1"> 0 </div>
+					<div class="current-score-box">
+						<div class="current">Current</div>
+						<div class="current-score" id="current-score1">0</div>
+					</div>
+				</div>
+				<div class="player-2">
+					<div class="player-name" id="name2">player 2</div>
+					<div class="player-score" id="final-score2"> 0 </div>
+					<div class="current-score-box">
+						<div class="current">Current</div>
+						<div class="current-score" id="current-score2">0</div>
+					</div>
+				</div>
+			</div>
+			<button class="button btn-ng"><i class="fas fa-plus-circle"></i>new game</button>
+			<button class="button btn-rd"><i class="fas fa-sync-alt"></i>roll dice</button>
+			<button class="button btn-h"><i class="fas fa-hand-paper"></i>hold</button>
+			
+			<input type="text" placeholder="Final Score" class="finalScore">
+			
+			<img src="img/dice-5.png" alt="dice" class="dice">
+		</div>
+		<script src="js/main.js"></script>	
+	</body>
+</html>
