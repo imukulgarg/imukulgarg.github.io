@@ -4,12 +4,94 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background-color: rebeccapurple;
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  color: white;
+  font-family: poppins;
+}
+
+.home {
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  width: 5rem;
+  margin-left: 8rem;
+}
+
+.nav {
+  flex: 2;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-size: 1.9rem;
+  cursor: pointer;
+}
+
+.nav ul li a:hover {
+  color: #2f88fb;
+}
+
+.nav li {
+  padding: 3rem;
+}
+
+.nav li a {
+  text-decoration: none;
   color: white;
 }
 
-.heading {
-  text-align: center;
-  padding: 40px;
+.info-container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info .heading1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: rgb(156, 156, 156);
+  letter-spacing: 0.8rem;
+}
+
+.info .heading2 {
+  font-size: 6rem;
+  font-weight: 700;
+  color: rgb(255, 253, 253);
+  letter-spacing: 1.8rem;
+}
+
+.info .heading3 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgb(156, 156, 156);
+  letter-spacing: 0.5rem;
 }
