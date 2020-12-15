@@ -1,0 +1,112 @@
+body {
+  background-image: linear-gradient(to right, #141e30, #243b55);
+  font-family: poppins;
+}
+
+.heading {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.frm {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 280px;
+  height: 30px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+  padding: 3px 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn {
+  background: white;
+  border: none;
+  font-size: 27px;
+  border-radius: 0 10px 10px 0;
+  color: #243b55;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #243b55;
+  color: white;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin-top: 65px;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 10px;
+  transition: all 0.5s ease;
+}
+
+.item-input {
+  background-color: white;
+  padding: 6px 15px;
+  border: none;
+  min-width: 150px;
+  border-radius: 10px 0 0 10px;
+}
+
+.item-check-btn {
+  background-color: green;
+}
+
+.item-remove-btn {
+  background-color: red;
+  border-radius: 0 10px 10px 0;
+}
+
+.item-check-btn,
+.item-remove-btn {
+  font-size: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.icn {
+  transition: all 0.2s;
+}
+
+.item-check-btn:hover .icn {
+  transform: rotate(360deg);
+}
+
+.item-remove-btn:hover .icn {
+  transform: rotate(360deg);
+}
+
+.fall {
+  transform: translateY(100px) rotateZ(20deg);
+  opacity: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.options {
+  width: 120px;
+  height: 36px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  color: #243b55;
+}

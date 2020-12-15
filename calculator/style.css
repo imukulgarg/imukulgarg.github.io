@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rebeccapurple;
+  overflow: hidden;
+  font-family: poppins;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  width: 350px;
+  background-color: #eaedef;
+  border-radius: 10px;
+}
+
+.screen {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+
+.buttons {
+  width: 100%;
+  height: 430px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  gap: 20px;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #c2c0c0;
+  border-radius: 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+button:hover {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(2px) scale(1.1);
+}
+
+button:nth-child(2),
+button:last-child {
+  grid-column: span 2;
+}
+
+button:nth-child(3),
+button:nth-child(7),
+button:nth-child(11),
+button:nth-child(15),
+button:nth-child(16),
+button:nth-child(18) {
+  font-size: 1.4rem;
+}
+
+button:nth-child(1) {
+  background-color: #2ed644;
+}
+
+button:nth-child(2) {
+  background-color: #d62e2e;
+}
+
+button:nth-child(3) {
+  background-color: #20b2aa;
+}
+
+button:nth-child(7) {
+  background-color: #ffa500;
+}
+
+button:nth-child(11) {
+  background-color: #f08080;
+}
+
+button:nth-child(15) {
+  background-color: #7d93e6;
+}
+
+button:nth-child(18) {
+  background-color: #9477a7;
+}
+
+.current-operant {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.previous-operant {
+  color: #868484;
+}

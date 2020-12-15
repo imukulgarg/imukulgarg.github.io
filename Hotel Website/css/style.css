@@ -1,0 +1,427 @@
+/* Global */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+				/*------------------*/
+
+/* Fonts */
+
+@font-face{
+	font-family : PopLight;
+	src : url(../Fonts/Poppins-Light.ttf);
+}
+
+@font-face{
+	font-family : PopMedium;
+	src : url(../Fonts/Poppins-Medium.ttf);
+}
+
+@font-face{
+	font-family : PopRegular;
+	src : url(../Fonts/Poppins-Regular.ttf);
+}
+
+				/*******************/
+				
+/* Header */
+
+.container{
+	background-color:#2B2A4F;
+	overflow: hidden;
+	width: 100%;
+	/*position: fixed;*/
+	
+}
+
+.nav-bar{
+	display: flex;
+	flex-wrap: no-wrap;
+}
+
+.logo,.nav{
+	flex:1;
+}
+
+.logo{
+	margin-left: 50px;
+	color: white;
+	font-family:PopMedium;
+	padding: 10px 20px;
+	font-size: 25px;
+}
+
+.logo a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	margin-right: 50px;
+	justify-content: flex-end;
+}
+
+.nav a {
+	color: white;
+	font-family: PopRegular;
+	text-decoration: none;
+	padding: 18px 25px;
+}
+
+.nav li{
+	list-style: none;
+}
+
+.nav li a:hover, .nav li a.current{
+	background-color: white;
+	color: #2B2A4F;
+}
+
+			/*******************/
+
+/* Top Section */
+
+.container2 {
+	background: url('../img/hotel1.jpg') ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	opacity: 1.0;
+}
+
+.content{
+	text-align: center;
+	padding-top: 150px;
+		
+}
+
+.content h1 {
+	font-size: 70px;
+	color: #2B2A4F;
+	font-family: PopMedium;
+}
+
+.content p {
+	font-family: PopRegular;
+	color: #2B2A4F;
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+
+.btn {
+	text-decoration: none;
+	font-family: PopRegular;
+	color: white;
+	font-size: 20px;
+	background: #2B2A4F;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.btn:hover {
+	background: white;
+	color: #2B2A4F;
+	
+}
+
+		/*********************/
+
+/*    Middle Section   */
+
+.container3 {
+	height: 400px;
+	display: flex;
+}
+
+.hist_img, .hist_cont{
+	flex:1;
+}
+
+.hist_img {
+	background: url('../img/hotel2.jpeg');
+	background-position: bottom;
+	background-size: cover;
+	width: 100%;
+}
+
+.hist_cont h2 {
+	font-size: 25px;
+	color: #2B2A4F;
+	font-family: PopMedium;
+	padding: 20px;
+	position: relative;
+	top: 30px;
+}
+
+.hist_cont {
+	background-color:white;
+	padding: 10px 25px;
+	line-height: 25px;
+	text-align:center;
+}
+
+.hist_cont p {
+	font-size: 15px;
+	color: #2B2A4F;
+	font-family: PopRegular;
+	position: relative;
+	top: 60px;
+}
+
+.btn1 {
+	text-decoration: none;
+	font-family: PopRegular;
+	color: white;
+	font-size: 20px;
+	background: #2B2A4F;
+	padding: 10px;
+	border-radius: 30px;
+	position: relative;
+	top: 105px;
+}
+
+.btn1:hover {
+	background: white;
+	color: #2B2A4F;
+	border: #2B2A4F 2px solid;
+}
+
+/********************************/
+
+
+/* Feature Section */
+
+.container4{
+	display:flex;
+	height: 300px;
+}
+
+.box{
+	flex: 1;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #2B2A4F;
+	color: white;
+	border: white 2px solid;	
+}
+
+.box h3 {
+	font-family: PopMedium;
+	margin: 10px;
+	font-size: 28px;
+}
+
+.box p {
+	font-family: PopLight;
+	padding: 0px 20px;
+	text-align: center;
+}
+
+.box:hover{
+	background: white;
+	color: #2B2A4F;
+	cursor: pointer;
+	border-top: 5px solid #2B2A4F;
+}
+
+/****************************/
+
+
+													/*ABOUT PAGE*/
+													
+													
+	/*Section 1*/
+	
+	.about-info {
+		display: flex;
+		height: 300px;
+	}
+	
+	.info-left, .info-right {
+		flex: 1;
+	}
+	
+	.info-left h2 {
+		font-family: PopMedium;
+		color: #2B2A4F;
+		padding-bottom: 20px;
+		font-size: 40px;		
+	}
+	
+	.info-left p {
+		font-family: PopRegular;
+		color: #2B2A4F;
+	}
+	
+	.info-left {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 30px;
+	}
+	
+	.info-right img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 200px;
+		padding: 20px;
+		display: flex;
+		align-items: flex-end;
+	}
+	
+	/***********/
+	
+	/* Section 2 */
+	
+	.big {
+		background: url('../img/hotel4.jpg') no-repeat center center/cover;
+		height: 700px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	
+	.big h2 {
+		font-family: PopMedium;
+		color: #2B2A4F;
+		font-size: 50px;
+	}
+	
+	.testimonial {
+		background-color: #2B2A4F;
+		height: 160px;
+		font-family: PopRegular;
+		color: white;
+		width: 70%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 200px;
+		overflow: auto;
+	}
+	
+	.testimonial img {
+		height: 120px;
+		width: 120px;
+		margin: 20px;
+	}
+	
+	.testimonial p {
+		padding: 20px;
+	}
+	
+	
+	/*************/
+													
+													/**************/
+													
+													
+													/* Contact */
+													
+		/*  Form */
+		
+		
+		.heading_con h1{
+			font-family: PopMedium;
+			color: #2B2A4F;
+			font-size: 50px;
+			text-align: center;
+			padding-top: 20px;
+		}
+		
+		.heading_con p{
+			font-family: PopRegular;
+			color: #2B2A4F;
+			text-align: center;
+		}
+		
+		.form-grp label {
+			display: block;
+			padding: 10px 30px;
+			font-family: PopMedium;
+			font-size: 25px;
+			color: #2B2A4F;			
+		}
+		
+		.form-grp input {
+			width: 96%;
+			padding: 10px;
+			margin: 0px 0px 0px 30px;
+		}
+		
+		.form-grp textarea {
+			width: 96%;
+			padding: 10px;
+			margin: 0px 0px 0px 30px;
+			height: 250px;
+		}
+		
+		.form-grp input:focus,
+		.form-grp textarea:focus{
+			outline: none;
+			border-color: #2B2A4F;
+		}
+		
+		.btn3 {
+			text-align: center;	
+			margin: 20px 750px;
+			font-family: PopRegular;
+			color: white;
+			font-size: 20px;
+			background: #2B2A4F;
+			padding: 10px 20px;
+			border-radius: 30px;
+			border: none;
+		}
+		
+		.btn3:hover{
+			background: white;
+			color: #2B2A4F;
+			border: #2B2A4F 2px solid;
+			cursor: pointer;
+		}
+		
+		/*************************/
+
+/*   Footer     */
+
+.foot{
+	background: white;
+	color: #2B2A4F;
+	height: 60px;
+	font-family: PopMedium;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	border-top: #2B2A4F 2px solid;
+}
+
+
+
+
+
+/*****************************/
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+html {
+	overflow: auto;	
+}
+
+.nav-bar{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+}
+
+.logo {
+	text-align: center;
+	margin: 0px;
+}
+
+.nav {
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	justify-content: space-between;
+}
+
+.content h1 {
+	font-size: 55px;
+}
+
+.content p {
+	font-size: 16px;
+}
+
+.nav li {
+	padding: 20px 0px;
+	margin: 0px;
+}
+
+.nav li a:hover, .nav li a.current{
+	background-color: white;
+	color: #2B2A4F;
+	width: 100vw;
+}
+
+/*Middle*/
+
+.container3 {
+	height: 500px;
+}
+
+.container3 {
+	display: block;
+}
+
+.info-left {
+	padding: 0px;	
+}
+
+.container4{
+	display:flex;
+	height: 850px;
+	flex-direction: column;
+}
+
+
+/*   About Page   */
+
+.about-info {
+		display: flex;
+		height: 600px;
+		flex-direction: column;
+	}
+	
+.big {
+		height: 600px;;
+	}
+	
+.big h2 {
+		font-size: 40px;
+		text-align: center;
+	}
+	
+.testimonial {
+		
+		width: 95%;
+	}
+	
+.testimonial p {
+		font-size: 12px;
+		padding: 0px;
+		text-align: center;
+		overflow: auto;
+		margin-right: 10px;
+	}
+
+.testimonial img {
+		height: 100px;
+		width: 100px;
+		margin: 10px;
+	}
+	
+ /* contact Page */
+ 
+ .container5{
+	 width: 94vw;
+ }
+ 
+ .form_grp {
+	 width: 100px;
+ }
+ 
+ .btn3 {		
+		margin: 20px 0px;
+		margin-left: 250px;		
+	}
+	
+.form-grp textarea, .form-grp input {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
