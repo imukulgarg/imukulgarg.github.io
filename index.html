@@ -6,21 +6,23 @@
     <title>Mukul Garg Portfolio</title>
     <link rel="shortcut icon" href="img/fevicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/779661b879.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="home">
+    <div class="home" id="home">
         <div class="header">
             <div class="logo">
                 <img src="./img/logo.png" alt="Logo">
             </div>
             <div class="nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">My Work</a></li>
-                    <li><a href="#">Contact</a></li>
+                <button class="button"><i class="fas fa-bars"></i></button>
+                <ul class="nav_list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -32,7 +34,7 @@
             </div>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="left-section">
             <img src="./img/mukul.png" alt="image">
         </div>
@@ -41,14 +43,14 @@
                 <h1 class="heading_main">ABOUT</h1>
                 <h2 class="heading_top">Hi! I'm Mukul Garg</h2>
             </div>
-            <p class="para">I am 24 Years Old. I live in Chandigarh. By Educational Qualification, I have done Masters in Information Technology from S.G.G.S College in Chandigarh.</p>
+            <p class="para">I am 24 Years Old. I live in Chandigarh. By Educational Qualification, I have completed my Master Degree in Information Technology from S.G.G.S College in 2020.</p>
             <p class="para">
                 I like to design but I don't confine myself to just that. Some other things which I like to do in my free time are drawing, watching cricket, surfing Youtube, playing sports.
             </p>
             <button class="btn"><a href="#">My Resume</a></button>
         </div>
     </div>
-    <div class="skills">
+    <div class="skills" id="skills">
         <h1 class="heading_secondary">SKILLS</h1>
         <div class="skills_container">
             <div class="skill">
@@ -102,7 +104,7 @@
             </div>
         </div>
     </div>
-    <div class="my_work">
+    <div class="my_work" id="projects">
         <h1 class="heading_secondary heading_work">My Work</h1>
         <div class="my_work-container">
             <div class="project">
@@ -221,6 +223,19 @@
 
             </div>
         </div>
+    </div>
+    <div class="footer" id="contact">
+        <h1 class="heading_secondary">Contact</h1>
+        <h2 class="heading_tertiary email">My Email</h2>
+        <h2 class="heading_tertiary">mukulgarg29.mg@gmail.com</h2>
+        <p class="social_para">Below are my Social Media accounts</p>
+        <div class="social">
+            <a href="https://twitter.com/im_mukulgarg" target="_blank" class="link"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/im_mukulgarg/" target="_blank" class="link"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://www.linkedin.com/in/mukul-garg-873b19184/" target="_blank" class="link"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/mukul.garg.94402" target="_blank" class="link"><i class="fab fa-facebook-square"></i></a>
+        </div>
+        <p class="footer_end">Made by <span>Mukul Garg</span> &copy; 2020</p>
     </div>
 
     <script src="script.js"></script>
