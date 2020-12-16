@@ -7,6 +7,7 @@ const burger = document.querySelector('.button');
 const nav_list = document.querySelector('.nav_list');
 const links = document.querySelectorAll('.nav_list li');
 const icon = document.querySelector('.button i');
+const html = document.querySelector('html');
 
 window.addEventListener('DOMContentLoaded', () => {
     const text = "Full Stack Developer in Making!!      ";
@@ -42,4 +43,5 @@ function change() {
     burger.classList.toggle('button-active');
     icon.classList.toggle('fa-bars');
     icon.classList.toggle('fa-times');
+    html.classList.toggle('scroll');
 }

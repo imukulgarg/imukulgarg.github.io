@@ -11,6 +11,10 @@ html {
   background-attachment: fixed;
 }
 
+.scroll {
+  overflow: hidden;
+}
+
 body {
   color: white;
   font-family: poppins;
