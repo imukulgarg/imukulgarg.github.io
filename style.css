@@ -6,7 +6,9 @@
 
 html {
   font-size: 62.5%;
-  color: black;
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .scroll {
@@ -17,9 +19,6 @@ body {
   color: white;
   font-family: poppins;
   overflow-x: hidden;
-  background-image: url("./img/background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .home {
