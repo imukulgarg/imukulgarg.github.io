@@ -9,6 +9,7 @@ html {
   background-image: url("./img/background.jpg");
   background-size: cover;
   background-attachment: fixed;
+  background-color: black;
 }
 
 .scroll {
@@ -543,7 +544,6 @@ body {
 @media screen and (max-width: 790px) {
   html {
     font-size: 52%;
-    background-color: #0c0c0c;
   }
 
   .button {
