@@ -543,6 +543,7 @@ body {
 @media screen and (max-width: 790px) {
   html {
     font-size: 52%;
+    background-color: #0c0c0c;
   }
 
   .button {
