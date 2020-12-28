@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
         if(index === text.length){
             index =1;
         }    
-    },400);
+    },200);
 })
 
 btn.addEventListener('click', () => {
