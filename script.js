@@ -32,10 +32,16 @@ close.addEventListener('click', () => {
     internal_popup.classList.toggle('popup_animate');
 })
 
-burger.addEventListener('click', change)
+burger.addEventListener('click', () => {
+    change();
+    html.classList.toggle('scroll');
+})
 
 links.forEach(el => {
-    el.addEventListener('click', change)
+    el.addEventListener('click', () => {
+        change();
+        html.classList.remove('scroll');
+    })
 })
 
 function change() {
@@ -43,5 +49,5 @@ function change() {
     burger.classList.toggle('button-active');
     icon.classList.toggle('fa-bars');
     icon.classList.toggle('fa-times');
-    html.classList.toggle('scroll');
 }
+
